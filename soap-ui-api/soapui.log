@@ -1,0 +1,143 @@
+2016-05-11 13:39:06,421 WARN  [SoapUI] Missing folder [D:\POC\soap-ui-api\ext] for external libraries
+2016-05-11 13:39:06,577 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\srizvi2\soapui-settings.xml]
+2016-05-11 13:39:06,958 INFO  [WsdlProject] Loaded project from [file:/D:/POC/soap-ui-api/target/classes/CAE.xml]
+2016-05-11 13:39:07,728 INFO  [log] in
+2016-05-11 13:39:07,878 INFO  [log] ********** operationName: add **********
+2016-05-11 13:39:07,879 INFO  [log] creating WsdlInterface.......
+2016-05-11 13:39:07,901 INFO  [SchemaUtils] Added default schema from file:/C:/Users/srizvi2/.m2/repository/com/eviware/soapui/5.0.1/soapui-5.0.1.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2016-05-11 13:39:07,911 INFO  [SchemaUtils] Added default schema from file:/C:/Users/srizvi2/.m2/repository/com/eviware/soapui/5.0.1/soapui-5.0.1.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2016-05-11 13:39:07,912 INFO  [SchemaUtils] Added default schema from file:/C:/Users/srizvi2/.m2/repository/com/eviware/soapui/5.0.1/soapui-5.0.1.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2016-05-11 13:39:07,912 INFO  [SchemaUtils] Added default schema from file:/C:/Users/srizvi2/.m2/repository/com/eviware/soapui/5.0.1/soapui-5.0.1.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2016-05-11 13:39:07,913 INFO  [SchemaUtils] Added default schema from file:/C:/Users/srizvi2/.m2/repository/com/eviware/soapui/5.0.1/soapui-5.0.1.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2016-05-11 13:39:07,913 INFO  [SchemaUtils] Added default schema from file:/C:/Users/srizvi2/.m2/repository/com/eviware/soapui/5.0.1/soapui-5.0.1.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2016-05-11 13:39:07,914 INFO  [SchemaUtils] Added default schema from file:/C:/Users/srizvi2/.m2/repository/com/eviware/soapui/5.0.1/soapui-5.0.1.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2016-05-11 13:39:07,916 INFO  [SchemaUtils] Added default schema from file:/C:/Users/srizvi2/.m2/repository/com/eviware/soapui/5.0.1/soapui-5.0.1.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2016-05-11 13:39:07,916 INFO  [SchemaUtils] Added default schema from file:/C:/Users/srizvi2/.m2/repository/com/eviware/soapui/5.0.1/soapui-5.0.1.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2016-05-11 13:39:07,918 INFO  [SchemaUtils] Added default schema from file:/C:/Users/srizvi2/.m2/repository/com/eviware/soapui/5.0.1/soapui-5.0.1.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2016-05-11 13:39:07,974 INFO  [SchemaUtils] Loading schema types from [file:/D:/Sajid/apache-tomcat-8.0.23/soapuiapiUploadFiles/SOAP/addition.wsdl]
+2016-05-11 13:39:07,975 INFO  [SchemaUtils] Getting schema file:/D:/Sajid/apache-tomcat-8.0.23/soapuiapiUploadFiles/SOAP/addition.wsdl
+2016-05-11 13:39:08,075 INFO  [WsdlImporter] Finding importer for {http://www.dishnetwork.com/wsdl/CtiToolbarCallInfo/CtiToolbarCallInfo-v2}add_v2_0_SOAP11Binding
+2016-05-11 13:39:08,077 INFO  [WsdlImporter] Importing binding {http://www.dishnetwork.com/wsdl/CtiToolbarCallInfo/CtiToolbarCallInfo-v2}add_v2_0_SOAP11Binding
+2016-05-11 13:39:08,086 INFO  [Soap11HttpBindingImporter] importing endpoint http://dmwbt55:14000/ws/add.v2_0:addWS
+2016-05-11 13:39:08,089 INFO  [Soap11HttpBindingImporter] importing operation add
+2016-05-11 13:39:08,349 INFO  [log] Skip the param Key::SK_Test case#
+2016-05-11 13:39:08,356 INFO  [log] Skip the param Key::SK_Test case description
+2016-05-11 13:39:08,357 INFO  [log] paramMap Key::first
+2016-05-11 13:39:08,357 INFO  [log] paramMap Key::second
+2016-05-11 13:39:08,546 INFO  [log] ----------------Start execution of test case----------------
+2016-05-11 13:39:08,621 INFO  [log] xpath::second::value::2
+2016-05-11 13:39:08,764 INFO  [log] xpath::first::value::1
+2016-05-11 13:39:08,765 INFO  [log] before request::<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ctit="http://www.dishnetwork.com/wsdl/CtiToolbarCallInfo/CtiToolbarCallInfo-v2.0">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ctit:addRequest>
+         <first>1</first>
+         <second>2</second>
+      </ctit:addRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+2016-05-11 13:39:08,900 INFO  [log] ContentAsXml::<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ctit="http://www.dishnetwork.com/wsdl/CtiToolbarCallInfo/CtiToolbarCallInfo-v2.0">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ctit:addResponse>
+         <SUM>3</SUM>
+      </ctit:addResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
+2016-05-11 13:39:08,902 INFO  [log] xpathSUM
+2016-05-11 13:39:08,906 INFO  [log] xpath::second::value::11
+2016-05-11 13:39:08,907 INFO  [log] xpath::first::value::2
+2016-05-11 13:39:08,907 INFO  [log] before request::<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ctit="http://www.dishnetwork.com/wsdl/CtiToolbarCallInfo/CtiToolbarCallInfo-v2.0">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ctit:addRequest>
+         <first>2</first>
+         <second>11</second>
+      </ctit:addRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+2016-05-11 13:39:08,927 INFO  [log] ContentAsXml::<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ctit="http://www.dishnetwork.com/wsdl/CtiToolbarCallInfo/CtiToolbarCallInfo-v2.0">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ctit:addResponse>
+         <SUM>13</SUM>
+      </ctit:addResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
+2016-05-11 13:39:08,927 INFO  [log] xpathSUM
+2016-05-11 13:39:08,988 INFO  [log] ********** operationName: add **********
+2016-05-11 13:39:08,988 INFO  [log] creating WsdlInterface.......
+2016-05-11 13:39:08,994 INFO  [SchemaUtils] Loading schema types from [file:/D:/Sajid/apache-tomcat-8.0.23/soapuiapiUploadFiles/SOAP/addition.wsdl]
+2016-05-11 13:39:08,994 INFO  [SchemaUtils] Getting schema file:/D:/Sajid/apache-tomcat-8.0.23/soapuiapiUploadFiles/SOAP/addition.wsdl
+2016-05-11 13:39:09,024 INFO  [WsdlImporter] Finding importer for {http://www.dishnetwork.com/wsdl/CtiToolbarCallInfo/CtiToolbarCallInfo-v2}add_v2_0_SOAP11Binding
+2016-05-11 13:39:09,024 INFO  [WsdlImporter] Importing binding {http://www.dishnetwork.com/wsdl/CtiToolbarCallInfo/CtiToolbarCallInfo-v2}add_v2_0_SOAP11Binding
+2016-05-11 13:39:09,024 INFO  [Soap11HttpBindingImporter] importing endpoint http://dmwbt55:14000/ws/add.v2_0:addWS
+2016-05-11 13:39:09,025 INFO  [Soap11HttpBindingImporter] importing operation add
+2016-05-11 13:39:09,206 INFO  [log] Skip the param Key::SK_Test case#
+2016-05-11 13:39:09,206 INFO  [log] Skip the param Key::SK_Test case description
+2016-05-11 13:39:09,206 INFO  [log] paramMap Key::first
+2016-05-11 13:39:09,206 INFO  [log] paramMap Key::second
+2016-05-11 13:39:09,360 INFO  [log] ----------------Start execution of test case----------------
+2016-05-11 13:39:09,411 INFO  [log] xpath::second::value::2
+2016-05-11 13:39:09,412 INFO  [log] xpath::first::value::1
+2016-05-11 13:39:09,412 INFO  [log] before request::<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ctit="http://www.dishnetwork.com/wsdl/CtiToolbarCallInfo/CtiToolbarCallInfo-v2.0">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ctit:addRequest>
+         <first>1</first>
+         <second>2</second>
+      </ctit:addRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+2016-05-11 13:39:09,425 INFO  [log] ContentAsXml::<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ctit="http://www.dishnetwork.com/wsdl/CtiToolbarCallInfo/CtiToolbarCallInfo-v2.0">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ctit:addResponse>
+         <SUM>3</SUM>
+      </ctit:addResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
+2016-05-11 13:39:09,426 INFO  [log] xpath::second::value::11
+2016-05-11 13:39:09,427 INFO  [log] xpath::first::value::2
+2016-05-11 13:39:09,427 INFO  [log] before request::<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ctit="http://www.dishnetwork.com/wsdl/CtiToolbarCallInfo/CtiToolbarCallInfo-v2.0">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ctit:addRequest>
+         <first>2</first>
+         <second>11</second>
+      </ctit:addRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+2016-05-11 13:39:09,436 INFO  [log] ContentAsXml::<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ctit="http://www.dishnetwork.com/wsdl/CtiToolbarCallInfo/CtiToolbarCallInfo-v2.0">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ctit:addResponse>
+         <SUM>13</SUM>
+      </ctit:addResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
+2016-05-11 13:39:09,437 INFO  [log] xpath::second::value::11
+2016-05-11 13:39:09,438 INFO  [log] xpath::first::value::3
+2016-05-11 13:39:09,439 INFO  [log] before request::<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ctit="http://www.dishnetwork.com/wsdl/CtiToolbarCallInfo/CtiToolbarCallInfo-v2.0">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ctit:addRequest>
+         <first>3</first>
+         <second>11</second>
+      </ctit:addRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+2016-05-11 13:39:09,448 INFO  [log] ContentAsXml::<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ctit="http://www.dishnetwork.com/wsdl/CtiToolbarCallInfo/CtiToolbarCallInfo-v2.0">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ctit:addResponse>
+         <SUM>14</SUM>
+      </ctit:addResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
+2016-05-11 13:39:09,449 INFO  [log] Completed the Test Case execution
+2016-05-11 13:39:09,467 INFO  [log] !Start TearDown Script execution...................................
+2016-05-11 13:39:09,475 INFO  [log] ********0
+2016-05-11 13:39:09,475 INFO  [log] responseDataSheetName: addRes
+2016-05-11 13:39:09,602 INFO  [log] responseDataSheetName: addRes1
+2016-05-11 13:39:09,816 INFO  [log] Finished
